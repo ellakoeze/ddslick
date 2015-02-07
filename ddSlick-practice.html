@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ddSlick jQuery practice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/40036711/Scripts/jquery.ddslick.min.js"></script>
+</head>
+
+<body>
+    <select id="htmlselect">
+      <option value="0" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/facebook-icon-32.png"
+            data-description="www.facebook.com/ella.koeze">Facebook</option>
+        <option value="1" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/twitter-icon-32.png"
+            data-description="www.twitter.com">Twitter</option>
+        <option value="2" data-imagesrc="http://dl.dropbox.com/u/40036711/Images/linkedin-icon-32.png"
+            data-description="www.linkedin.com/in/ellakoeze">LinkedIn</option>
+        <option value="3"  data-imagesrc="http://dl.dropbox.com/u/40036711/Images/foursquare-icon-32.png"
+            data-description="www.foursquare.com">Foursquare</option>
+    </select>
+    
+<div id="iframe"></div> 
+    
+<script>
+    
+
+    $(document).ready(function(){
+  
+  $('#htmlselect').ddslick({
+    onSelected: function(selectedData){
+        
+    }
+    
+});
+  
+});
+
+   
+</script>
+
+
+</body>
+</html>
