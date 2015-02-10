@@ -28,7 +28,10 @@
   
   $('#htmlselect').ddslick({
     onSelected: function(selectedData){
-        
+    if (data.selectedValue == 0) {
+            window.open("http://facebook.com");
+    }
+    }    
     }
     
 });
